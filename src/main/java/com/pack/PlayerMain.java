@@ -8,6 +8,7 @@ public class PlayerMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		System.out.println("This is Player Main Class");
 		public static final int x = 10;
 		ApplicationContext c = new FileSystemXmlApplicationContext("player.xml");
 		Player p = (Player) c.getBean("player");
