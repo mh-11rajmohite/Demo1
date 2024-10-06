@@ -11,6 +11,11 @@ public class StudentMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		//adding random variable 
+		int x  = 10;
+		 
+		 
+
 		Resource res = new FileSystemResource("student.xml");
 	//	BeanFactory factory = new XmlBeanFactory(res);
 	
