@@ -8,7 +8,7 @@ public class UserServiceMain {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-	System.out.println("Welcome");
+	System.out.println("Welcome Everyone, Good Morning");
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("user.xml");
 
 		UserService u = ctx.getBean(UserService.class);
